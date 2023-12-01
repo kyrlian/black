@@ -102,5 +102,5 @@ def drawimg(grid):
     # convert PIL image to Streamlit image and display
     streamlit_image = streamlit.image(img)
 
-drawimg(transform(initgrid(),fire,100))
+drawimg(transform(initgrid(),fire,10))
 drawimg(initgrid())
