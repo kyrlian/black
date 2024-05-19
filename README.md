@@ -10,5 +10,5 @@ pip install -r requirements.txt
 
 ## Run
 ```sh
-streamlit run black.py
+python -m streamlit run black.py
 ```
